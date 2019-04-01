@@ -1,0 +1,142 @@
+.mainhd{
+	padding: 10px 32%;
+	color: white;
+	font-size: 50px;
+}
+.mainhd1{
+	padding: 7px 43%;
+    color: white;
+    font-size: 50px;
+}
+.c1{
+	background-color: skyblue;	
+}
+.search{
+	text-align: center;
+    padding: 20px;
+    background-color: #5fadcc;
+    margin-bottom: 45px;
+}
+#butn{
+	color: #fff;
+    background-color: skyblue;
+    border-color: #17a2b8;
+    margin: 10px;
+}
+.in1{
+	width: 30%;
+    height: 38px;
+    margin: 5px;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+.box{
+	border: 8px #08a4be solid;
+    margin: 50px 30px;
+    border-radius: 10px;
+}
+.inbox{
+	padding: 20px;
+    border: 5px #488eaa solid;
+    margin: 10px;
+    border-radius: 12px;
+}
+.inbox1{
+	display: inline-block;
+}
+#i1{
+	padding: 20px;
+}
+#i2{
+	padding: 20px;
+}
+#i3{
+	padding: 20px;
+}
+#i4{
+	padding: 20px;
+}
+.pp{
+	font-size: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #21a0ac;
+    font-weight: 500;
+}
+.a1{
+	font-family: cursive;
+    font-size: 16px;
+    color: #2196f3;
+}
+.a2{
+	margin-left: 60px;
+    font-family: cursive;
+    font-size: 20px;
+    color: #10acc5;
+    font-weight: bold;
+}
+.a3{
+	margin-left: 28px;
+    font-family: cursive;
+    font-size: 18px;
+    color: #10acc5;
+    font-weight: bold;
+}
+.a4{
+    margin-left: 50px;
+    font-family: cursive;
+    font-size: 18px;
+    color: #10acc5;
+    font-weight: bold;
+}
+.ppi{
+	margin: 5px 65px 10px 75px;
+    height: 38px;
+}
+.ppi1{
+	margin: 5px 65px 5px 53px;
+}
+.gimg{
+	width: 80%;
+    height: 260px;
+    margin: 50px;
+}
+#g1{
+	background-color: skyblue; 
+}
+#g2{
+	background-color: #5fadcc; 
+}
+#g3{
+	background-color: #488eaa; 
+}
+#gg{
+	margin: 50px 0px;
+}
+.foot{
+	background-color: #25627a;
+	color: white;
+    text-align: right;
+    font-size: 20px;
+    margin: 50px 0px 0px;
+    height: 50px;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: #488eaa;
+    font-weight: bold;
+}
+.current{
+    font-size: 32px;
+    text-align: center;
+    color: #1f92c1;
+    margin: 30px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+#graph{
+    padding: 25px;
+}

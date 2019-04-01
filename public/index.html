@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
+  <script src="weather.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<link href="style.css" rel="stylesheet">
+
+  <title>Weather Report</title>
+  
+</head>
+
+<body>
+    
+  <div class="container-fluid c1">
+            <div class="row">
+                <h2 class="mainhd"> The Weather App</h2>
+            </div>
+        </div>
+
+    
+
+        <div class="search">
+            <div id="error"></div>
+            <input type="text" id="city" class="in1" placeholder="Enter City Name">
+            <a href="#" class="btn" id="butn" role="button">Search</a>
+        </div>
+
+        <div class="container">
+          <div id="curr"></div>
+            <div class="row">
+
+                <div class="col-md-3">
+                  <h4 class="heading">Today</h4>
+                    <div id="i1" class="inbox">
+                        <div class="pp" id="temp1"></div>
+                        <p id="icon1" class="inbox1"></p>
+                        <p class="p1 inbox1 a2" id="desc1"></p>
+                        <hr/>
+                        <div class="hum">
+                            <img class="ppi" src="icons/humidity.png">
+                            <p class="inbox1 a1" id = "humi1"></p>
+                            <p class="inbox1 a4">Humidity</p>
+                        </div>
+                        <hr/>
+                        <div>
+                            <img class="ppi1" src="icons/precipitation.png">
+                            <p class="inbox1 a1" id= "pres1"></p>
+                            <p class="inbox1 a3">Pressure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                  <h4 class="heading">Day-2</h4>
+                    <div id="i2" class="inbox">
+                        <div class="pp" id="temp2"></div>
+                        <p id="icon2" class="inbox1"></p>
+                        <p class="p1 inbox1 a2" id="desc2" ></p>
+                        <hr/>
+                        <div class="hum">
+                            <img class="ppi" src="icons/humidity.png">
+                            <p class="inbox1 a1" id="humi2"></p>
+                            <p class="inbox1 a4">Humidity</p>
+                        </div>
+                        <hr/>
+                        <div>
+                            <img class="ppi1" src="icons/precipitation.png">
+                            <p class="inbox1 a1" id="pres2"></p>
+                            <p class="inbox1 a3">Pressure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                  <h4 class="heading">Day-3</h4>
+                    <div id="i3" class="inbox">
+                        <div class="pp" id="temp3"></div>
+                        <p id="icon3" class="inbox1"></p>
+                        <p class="p1 inbox1 a2" id="desc3"></p>
+                        <hr/>
+                        <div class="hum">
+                            <img class="ppi" src="icons/humidity.png">
+                            <p class="inbox1 a1" id="humi3"></p>
+                            <p class="inbox1 a4">Humidity</p>
+                        </div>
+                        <hr/>
+                        <div>
+                            <img class="ppi1" src="icons/precipitation.png">
+                            <p class="inbox1 a1" id="pres3"></p>
+                            <p class="inbox1 a3">Pressure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                  <h4 class="heading">Day-4</h4>
+                    <div id="i4" class="inbox">
+                        <div class="pp" id="temp4"></div>
+                        <p id="icon4" class="inbox1"></p>
+                        <p class="p1 inbox1 a2" id="desc4"></p>
+                        <hr/>
+                        <div class="hum">
+                            <img class="ppi" src="icons/humidity.png">
+                            <p class="inbox1 a1" id="humi4"></p>
+                            <p class="inbox1 a4">Humidity</p>
+                        </div>
+                        <hr/>
+                        <div>
+                            <img class="ppi1" src="icons/precipitation.png">
+                            <p class="inbox1 a1" id="pres4" ></p>
+                            <p class="inbox1 a3">Pressure</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    
+
+    <div class="container-fluid c1" id="gg">
+            <div class="row">
+                <h2 class="mainhd1"> Graphs</h2>
+            </div>
+    </div>
+
+    <section id="graph">
+
+        
+            
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div >
+                        <canvas id="lineChart" ></canvas>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div >
+                        <canvas id="lineChart2"></canvas>
+                        </div>
+                    </div>
+
+                </div>
+           
+        
+    </section>    
+
+    <footer>
+        <p class="foot">Made by Ankit Dua</p>
+    </footer>  
+
+      
+</body>
+
+</html>			
